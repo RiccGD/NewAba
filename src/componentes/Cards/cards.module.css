@@ -1,0 +1,72 @@
+.Tela{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes{
+    width: 80%;
+    height: 60%;
+    background-color: #0d00a0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    border: solid #000000;
+    gap: 10px;
+}
+.opcoes h1,button{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+
+.opcoes .Fav, .Mus, .BlNo, .Lis, .Quirvo, .Btn{
+    width: 25%;
+    height: 25%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Fav{
+    border: solid #000000 3px;
+    background-color: aliceblue;
+}
+.Mus{
+    border: solid #ffffff 3px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.BlNo{
+    border: solid #948a00 3px;
+    background-color: #fafa78;
+}
+.Lis{
+    border: solid #000000 3px;
+    background-color: #58bdd6;
+}
+.Quirvo{
+    border: solid #fceb00 3px;
+    background-color: #fffbcb;
+}
+.Btn{
+    border: solid #3a3a3a 2px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: underline;
+}

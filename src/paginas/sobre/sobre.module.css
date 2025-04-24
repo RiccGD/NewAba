@@ -1,0 +1,43 @@
+.molde{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #030108;
+}
+.textBase{
+    width: 45%;
+    min-height: 10rem;
+    gap: 2px;
+    background-color: var(--terceary);
+    border-radius: 15px;
+    padding: 8px 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #d3f8d0;
+}
+.textBase:first-child{
+    margin-right: 1.3rem;
+    background-color: var(--primary);
+    color: #fae8c7;
+}
+.textBase h1,h2{
+    text-align: center;
+    margin: 1rem 0rem;
+    text-decoration: underline;
+}
+p{
+    width: 98%;
+    padding: 4px 6px 3px 6px;
+}
+
+.DoubleBox{
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+}

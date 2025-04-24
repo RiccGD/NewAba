@@ -1,0 +1,22 @@
+:root {
+  font-family: Delius, serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #021d58;
+  --secondary: #586892;
+  --terceary: #2f74ad;
+  --red:#e00000;
+  --black:#000;
+  --white:#fff;
+  --gray:#929292;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
