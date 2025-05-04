@@ -1,0 +1,70 @@
+.BlocoNotas{
+    width: 40%;
+    height: 10rem;
+    background-color: lightyellow;
+    border: solid #ffa9a9 4px;
+    border-radius: 20px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    resize: both;
+    overflow: auto;
+}
+.tituNo{
+    width: 100%;
+    height: 3rem;
+    background-color: yellow;
+    border-bottom: solid #000000 2px;
+    border-radius: 14px 14px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.tituNo h1{
+    padding-left: 10px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.tituNo button{
+    width: 30px;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    color: red;
+}
+.tituNo img{
+    width: 99%;
+}
+
+.areaTex{
+    width: 98%;
+    height: 90%;
+    margin: 2px;
+    border: none;
+    background: none;
+    resize: none;
+    outline: none;
+}
+
+.titleTex{
+    background: none;
+    border: none;
+    padding: 4px;
+    width: 85%;
+    height: 100%;
+    border-radius: 14px 14px 0px 0px;
+    resize: none;
+    outline: none;
+    color: black;
+    font-size: large;
+}
+
+.btnsalvar{
+    width: 50%;
+    height: 20px;
+    background-color: lightblue;
+    border: solid black 2px;
+}

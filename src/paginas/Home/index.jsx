@@ -1,6 +1,8 @@
 import styles from './home.module.css'
 import Cards from '../../componentes/Cards'
 import GoogleSearchBar from '../../componentes/GoogleBar'
+import Music from '../../componentes/Opções/Music'
+import BloNo from '../../componentes/Opções/BlocoDeNotas'
 
 
 function Home(){
@@ -12,6 +14,10 @@ function Home(){
         <GoogleSearchBar />
         
         <div className={styles.BaseForMore}>
+            <Music />
+
+            <BloNo />
+
             <div className={styles.card}>
                 <button>
                 +
